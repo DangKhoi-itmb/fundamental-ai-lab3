@@ -1,0 +1,26 @@
+\begin{table}[H]
+\centering
+\caption{Kết quả đánh giá các phương pháp lấy mẫu theo 3 metrics (trung bình $\pm$ độ lệch chuẩn qua nhiều lần chạy).}
+\label{tab:metrics_summary}
+\begin{tabular}{l l l l l}
+\hline
+Phương pháp & $m$ & Discrepancy $\downarrow$ & NN-min $\uparrow$ & $\Phi_{q}$ $\downarrow$ \\
+\hline
+Random & 10 & 0.3504 $\pm$ 0.0730 & 0.0950 $\pm$ 0.0435 & 127.7473 $\pm$ 26.8957 \\
+Random & 100 & 0.1221 $\pm$ 0.0447 & 0.0077 $\pm$ 0.0040 & 14401.3956 $\pm$ 641.0074 \\
+Random & 1000 & 0.0379 $\pm$ 0.0047 & 0.0006 $\pm$ 0.0002 & 1488814.9044 $\pm$ 19378.8405 \\
+Additive Recurrence & 10 & 0.1759 $\pm$ 0.0139 & 0.1599 $\pm$ 0.0000 & 99.9133 $\pm$ 2.9638 \\
+Additive Recurrence & 100 & 0.0423 $\pm$ 0.0059 & 0.0223 $\pm$ 0.0000 & 14909.5457 $\pm$ 45.3440 \\
+Additive Recurrence & 1000 & 0.0065 $\pm$ 0.0010 & 0.0223 $\pm$ 0.0000 & 1441707.2606 $\pm$ 202.6895 \\
+Halton & 10 & 0.2046 $\pm$ 0.0247 & 0.1532 $\pm$ 0.0315 & 98.2246 $\pm$ 5.8751 \\
+Halton & 100 & 0.0296 $\pm$ 0.0027 & 0.0309 $\pm$ 0.0048 & 13311.9489 $\pm$ 57.7582 \\
+Halton & 1000 & 0.0045 $\pm$ 0.0005 & 0.0055 $\pm$ 0.0020 & 1437604.9012 $\pm$ 1675.6386 \\
+Sobol & 10 & 0.2164 $\pm$ 0.0412 & 0.1309 $\pm$ 0.0365 & 99.6833 $\pm$ 3.4034 \\
+Sobol & 100 & 0.0321 $\pm$ 0.0050 & 0.0219 $\pm$ 0.0071 & 13347.4687 $\pm$ 64.1823 \\
+Sobol & 1000 & 0.0037 $\pm$ 0.0003 & 0.0042 $\pm$ 0.0024 & 1434989.4223 $\pm$ 2850.4446 \\
+Uniform Projection (LHS) & 10 & 0.1902 $\pm$ 0.0292 & 0.1090 $\pm$ 0.0327 & 105.8878 $\pm$ 4.3794 \\
+Uniform Projection (LHS) & 100 & 0.0506 $\pm$ 0.0074 & 0.0131 $\pm$ 0.0053 & 14051.0812 $\pm$ 86.2337 \\
+Uniform Projection (LHS) & 1000 & 0.0179 $\pm$ 0.0044 & 0.0010 $\pm$ 0.0003 & 1471085.9335 $\pm$ 5368.4771 \\
+\hline
+\end{tabular}
+\end{table}
